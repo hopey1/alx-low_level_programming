@@ -1,6 +1,12 @@
-#ifndef _0_OBJECT_LIKE_MACRO_H_
-#define _0_OBJECT_LIKE_MACRO_H_
+#include <stdio.h>
 
-#define SIZE 1024
-
-#endif /* _0_OBJECT_LIKE_MACRO_H_ */
+/**
+ *  main - prints the name of the file
+ *
+ *  Return: always 0
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
+}
