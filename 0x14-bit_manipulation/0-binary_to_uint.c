@@ -5,7 +5,7 @@
  *  unsigned int.
  *  @b: binary.
  *
- *  Return: The positive number converted from a binary
+ *  Return: unsigned int.
  */
 unsigned int binary_to_uint(const char *b)
 {
@@ -15,7 +15,7 @@ unsigned int binary_to_uint(const char *b)
 	if (!b)
 		return (0);
 
-	ui = o;
+	ui = 0;
 
 	for (len = 0; b[len] != '\0'; len++)
 		;
